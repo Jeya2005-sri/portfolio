@@ -1,0 +1,66 @@
+<html>
+<head>
+<style>
+.outerbox
+{
+background-color:belge;
+min-height:400px;
+display:flex;
+flex-direction:column; 
+justify-content:flex-start; 
+align-items:center; 
+}
+
+.box
+{
+width:150px;
+height:50px;// Intial 250px; step15 changed into 50px;
+background-color:blue;
+border:2px solid white;
+}
+
+
+.container{
+display:flex;
+flex-direction:column; //step6
+} //comment and run.
+
+
+p{
+padding:10px;
+}
+.p1{
+background-color:aquamarine;
+flex:1;
+order:3; 
+}
+.p2{
+background-color:darksalmon;
+flex:1;
+order:1;
+}
+.p3{
+background-color:cornsilk;
+flex:1;// flex:2; 
+order:2;
+}
+</style>
+</head>
+<body>
+<!--step7-->
+<div class="outerbox">
+   <div class="box"></div>
+   <div class="box"></div>
+   <div class="box"></div>
+   <div class="box"></div>
+</div>
+
+<div class="container">
+<p class="p1"> Dominating Earth’s present flora are the angiosperms, with about 300,000 species, among which are the majority of the world’s trees. Angiosperms are sometimes divided on the basis of a group of characteristics into two major groups: the monocotyledons and the eudicotyledons. The most present flora are the angiosperms, with about 300,000 species, among which are the majority of the world’s trees. most numerous of the monocotyledonous trees are palms;  </p>
+<p class="p2">Angiosperms are sometimes divided on the basis of a group of characteristics into two major groups: the monocotyledons and the eudicotyledons. The most numerous of the monocotyledonous trees are palms; others include agaves, aloes, dracaenas, screw pines, and yuccas. By far eudicotyledons; they are represented by such familiar groups as birches, elms, hollies, maples, oaks, poplars, ashes, and willows. </p>
+<p class="p3"> By far the greatest number of tree species are eudicotyledons; they are represented by such familiar groups as birches, elms, hollies, maples, oaks, poplars, ashes, and willows.Dominating Earth’s present flora are the angiosperms, with about 300,000 species, among which are the eudicotyledons; they are represented by such familiar groups as birches, elms, hollies, maples, </p>
+</div>
+</body>
+</html>
+
+
